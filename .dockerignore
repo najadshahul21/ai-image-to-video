@@ -1,0 +1,10 @@
+node_modules
+frontend/build
+backend/uploads
+backend/outputs
+.git
+.gitignore
+__pycache__
+*.pyc
+.venv
+venv
