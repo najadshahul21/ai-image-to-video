@@ -1,0 +1,9 @@
+services:
+  - type: web
+    runtime: docker
+    name: ai-image-to-video
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /gpu-info
+    autoDeployTrigger: commit
